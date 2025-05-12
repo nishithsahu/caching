@@ -54,6 +54,7 @@ REDIS_URL=redis://localhost:6379
 ### 4. Run the server
 
 npm run dev
+<http://localhost:3000/api/products>
 
 ### 4. Test the Caching
 

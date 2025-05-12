@@ -12,30 +12,30 @@ This is a simple Node.js application demonstrating **API rate limiting per IP** 
 
 ## 📁 Project Structure
 
-api-rate-limit-caching/
+caching/
 ├── src/
-│ ├── routes/
-│ │ └── products.js
-│ ├── middlewares/
-│ │ ├── rateLimiter.js
-│ │ └── cache.js
-│ ├── utils/
-│ │ └── logger.js
-│ ├── data/
-│ │ └── products.json
-│ ├── app.js
+│   ├── routes/
+│   │   └── products.js
+│   ├── middlewares/
+│   │   ├── rateLimiter.js
+│   │   └── cache.js
+│   ├── utils/
+│   │   └── logger.js
+│   ├── data/
+│   │   └── products.json
+│   └── app.js
 ├── .env
 ├── Dockerfile
 ├── package.json
 ├── README.md
 └── tests/
-└── middleware.test.js
+    └── middleware.test.js
 
 ## ⚙️ Setup & Run Instructions
 
 ### 1. Clone and Install Dependencies
 
-git clone <https://github.com/nishithsahu/api-rate-limit-caching.git>
+git clone <https://github.com/nishithsahu/caching.git>
 cd api-rate-limit-caching
 npm install
 

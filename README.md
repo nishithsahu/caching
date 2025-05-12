@@ -31,16 +31,16 @@ api-rate-limit-caching/
 └── tests/
 └── middleware.test.js
 
-
 ## ⚙️ Setup & Run Instructions
 
 ### 1. Clone and Install Dependencies
 
-git clone https://github.com/nishithsahu/api-rate-limit-caching.git
+git clone <https://github.com/nishithsahu/api-rate-limit-caching.git>
 cd api-rate-limit-caching
 npm install
 
 ### 2. Run Redis on docker
+
 docker run -d --name redis -p 6379:6379 redis
 
 ### 3. Add .env file as below
@@ -51,10 +51,10 @@ RATE_LIMIT_MAX=10
 RATE_LIMIT_WINDOW_MS=60000
 REDIS_URL=redis://localhost:6379
 
+### 4. Run the server
 
-### 4. Run the server 
 npm run dev
 
 ### 4. Test the Caching
-npm test
 
+npm test
